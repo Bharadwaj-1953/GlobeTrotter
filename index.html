@@ -3,114 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlobeTrotter</title>
+  <title>GlobeTrotter - Smart Travel Planning for Students</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <h1 class="logo">GlobeTrotter</h1>
+      <ul class="nav-links">
+        <li><a href="#team">Team</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#storyboards">Storyboards</a></li>
+        <li><a href="#prototype">Prototype</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="container">
+  <!-- Main Content -->
+  <main class="container">
+    
+    <!-- Title Image -->
+    <section class="hero">
+      <img src="Title.png" alt="GlobeTrotter - Plan Smart. Travel Better." class="hero-image">
+    </section>
 
-  <!-- TITLE -->
-  <header class="center">
-    <h1>GlobeTrotter</h1>
-    <p class="tagline">Plan Smart. Travel Better.</p>
-    <img src="Title.png" alt="GlobeTrotter" class="main-image">
-  </header>
+    <!-- Project Team -->
+    <section class="section" id="team">
+      <h2>Project Team</h2>
+      <ul class="list">
+        <li>Bharadwaj Manne</li>
+        <li>Rasheeq Ishmam</li>
+        <li>Arturo Calanche</li>
+      </ul>
+    </section>
 
-  <!-- TEAM -->
-  <section>
-    <h2>Project Team</h2>
-    <ul class="team">
-      <li>Bharadwaj Manne</li>
-      <li>Rasheeq Ishmam</li>
-      <li>Arturo Calanche</li>
-    </ul>
-  </section>
+    <!-- Project Introduction -->
+    <section class="section">
+      <h2>Project Introduction</h2>
+      <p>
+        GlobeTrotter is a travel planning system designed for college students. The goal of the system is to simplify how students search, compare, and plan trips without needing to switch between multiple platforms.
+      </p>
+      <p>
+        The system allows users to explore travel options based on budget and preferences, compare plans, and make informed decisions. It also supports group planning and itinerary management, helping users organize their trips more efficiently.
+      </p>
+    </section>
 
-  <!-- ABOUT -->
-  <section>
-    <h2>About the Project</h2>
-    <p>
-      GlobeTrotter is a travel planning system designed for college students. The goal of the system is 
-      to simplify how students search, compare, and plan trips without switching between multiple platforms.
-    </p>
-    <p>
-      The system allows users to explore travel options based on budget, preferences, and constraints, 
-      compare plans, and make informed decisions. It also supports group planning and itinerary management.
-    </p>
-  </section>
+    <!-- User Research -->
+    <section class="section" id="research">
+      <h2>User Research</h2>
+      <p>
+        We conducted semi-structured interviews with six college students to understand how they currently plan trips and what challenges they face.
+      </p>
+      <p>
+        Most students reported that they rely on multiple platforms such as airline websites, hotel booking apps, and search engines. This makes the process time-consuming and difficult when comparing options. Group travel planning adds additional complexity when trying to balance different preferences, budgets, and schedules.
+      </p>
 
-  <!-- USER RESEARCH -->
-  <section>
-    <h2>User Research</h2>
+      <div class="research-grid">
+        <div class="research-box">
+          <h3>Key Problems</h3>
+          <ul class="list">
+            <li>Switching between multiple platforms</li>
+            <li>Slow and unstructured group decision-making</li>
+            <li>Difficulty comparing cost and time trade-offs</li>
+            <li>Planning feels overwhelming</li>
+          </ul>
+        </div>
+        <div class="research-box">
+          <h3>User Needs</h3>
+          <ul class="list">
+            <li>A single place to compare travel options</li>
+            <li>Clear cost and time information</li>
+            <li>Support for group planning and coordination</li>
+            <li>Simple and guided planning workflows</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <p>
-      We conducted semi-structured interviews with six college students to understand how they currently 
-      plan trips and the challenges they face.
-    </p>
+    <!-- Storyboards -->
+    <section class="section" id="storyboards">
+      <h2>Storyboards</h2>
 
-    <p>
-      Students reported that planning requires switching between multiple platforms such as airline 
-      websites and booking apps. This makes the process time-consuming and difficult when comparing options. 
-      Group travel adds additional complexity when balancing preferences and budgets.
-    </p>
+      <div class="storyboard">
+        <h3>Simple Task – Budget Trip Planning</h3>
+        <p>A student searches for travel options within a fixed budget, compares available plans, and selects the best option.</p>
+        <img src="Simple.jpeg" alt="Simple Task - Budget Trip Planning" class="storyboard-image">
+      </div>
 
-    <h3>Key Problems</h3>
-    <ul>
-      <li>Switching between multiple platforms</li>
-      <li>Slow group decision-making</li>
-      <li>Difficulty comparing cost and time</li>
-      <li>Planning feels overwhelming</li>
-    </ul>
+      <div class="storyboard">
+        <h3>Moderate Task – Comparing Travel Options</h3>
+        <p>Users compare multiple travel options and evaluate trade-offs between cost and travel time before making a decision.</p>
+        <img src="Moderate.jpeg" alt="Moderate Task - Comparing Travel Options" class="storyboard-image">
+      </div>
 
-    <h3>User Needs</h3>
-    <ul>
-      <li>Compare options in one place</li>
-      <li>Clear cost and time information</li>
-      <li>Support for group planning</li>
-      <li>Simple workflows</li>
-    </ul>
-  </section>
+      <div class="storyboard">
+        <h3>Complex Task – Itinerary and Events</h3>
+        <p>Users manage their itinerary, explore nearby events, compare options, and add selected activities to create a complete travel plan.</p>
+        <img src="Complex.jpeg" alt="Complex Task - Itinerary and Events" class="storyboard-image">
+      </div>
+    </section>
 
-  <!-- STORYBOARDS -->
-  <section>
-    <h2>Storyboards</h2>
+    <!-- Prototype Links -->
+    <section class="section" id="prototype">
+      <h2>Prototype Links</h2>
+      <div class="prototype-links">
+        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" class="link">
+          Figma Mockups
+        </a>
+        <a href="https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1" target="_blank" class="link">
+          Interactive Prototype
+        </a>
+      </div>
+    </section>
 
-    <h3>Simple Task – Budget Trip Planning</h3>
-    <p>
-      A student searches for travel options within a budget, compares plans, and selects the best option.
-    </p>
-    <img src="Simple.jpeg" class="storyboard">
+  </main>
 
-    <h3>Moderate Task – Comparing Travel Options</h3>
-    <p>
-      Users compare options and evaluate trade-offs between cost and travel time.
-    </p>
-    <img src="Moderate.jpeg" class="storyboard">
-
-    <h3>Complex Task – Itinerary and Events</h3>
-    <p>
-      Users manage itineraries, explore events, and add selected activities to their trip.
-    </p>
-    <img src="Complex.jpeg" class="storyboard">
-  </section>
-
-  <!-- LINKS -->
-  <section class="center">
-    <h2>Prototype Links</h2>
-    <p>
-      <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank">
-        Figma Mockups
-      </a>
-    </p>
-    <p>
-      <a href="https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1" target="_blank">
-        Interactive Prototype
-      </a>
-    </p>
-  </section>
-
-</div>
-
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 GlobeTrotter. A project by Bharadwaj Manne, Rasheeq Ishmam, and Arturo Calanche.</p>
+  </footer>
 </body>
 </html>
