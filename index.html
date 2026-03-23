@@ -3,104 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlobeTrotter</title>
+  <title>GlobeTrotter - Smart Travel Planning for Students</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">GlobeTrotter</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#prototype">Prototype</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <div class="page">
-
-    <header class="site-header">
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
       <h1>GlobeTrotter</h1>
       <p class="tagline">Plan Smart. Travel Better.</p>
-    </header>
+      <p class="hero-subtitle">A smarter way for students to plan trips together</p>
+    </div>
+  </header>
 
-    <section class="hero-section">
-      <img src="Title.png" alt="GlobeTrotter hero image" class="hero-image">
-    </section>
-
-    <section class="content-section">
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Team Section -->
+    <section class="team-section">
       <h2>Project Team</h2>
-      <ul class="team-list">
-        <li>Bharadwaj Manne</li>
-        <li>Rasheeq Ishmam</li>
-        <li>Arturo Calanche</li>
-      </ul>
+      <div class="team-grid">
+        <div class="team-member">
+          <p>Bharadwaj Manne</p>
+        </div>
+        <div class="team-member">
+          <p>Rasheeq Ishmam</p>
+        </div>
+        <div class="team-member">
+          <p>Arturo Calanche</p>
+        </div>
+      </div>
     </section>
 
+    <!-- About Section -->
+    <section class="content-section" id="about">
+      <div class="section-header">
+        <h2>About the Project</h2>
+        <div class="header-underline"></div>
+      </div>
+      <div class="section-content">
+        <p>
+          GlobeTrotter is a travel planning system designed for college students. The goal of the project is to simplify how students search, compare, and plan trips without switching between multiple platforms.
+        </p>
+        <p>
+          The system supports budget-based planning, comparison of travel options, group decision-making, and itinerary management. It is designed to make the travel planning process more organized, less stressful, and easier to manage.
+        </p>
+      </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="content-section" id="research">
+      <div class="section-header">
+        <h2>User Research</h2>
+        <div class="header-underline"></div>
+      </div>
+      <div class="section-content">
+        <p>
+          We conducted semi-structured interviews with six college students to understand how they currently plan trips and what challenges they face. The participants included both undergraduate and graduate students with different levels of travel experience.
+        </p>
+        <p>
+          Our research showed that students often depend on multiple websites and apps to compare flights, hotels, and transportation options. This makes planning time-consuming and mentally tiring. Group travel creates additional difficulty because users must coordinate different budgets, schedules, and preferences.
+        </p>
+
+        <div class="research-columns">
+          <div class="research-column">
+            <h3>Key Problems</h3>
+            <ul class="insight-list">
+              <li>Switching between multiple travel platforms</li>
+              <li>Slow and unstructured group decision-making</li>
+              <li>Difficulty comparing cost and time trade-offs</li>
+              <li>Planning feels stressful and overwhelming</li>
+            </ul>
+          </div>
+          <div class="research-column">
+            <h3>User Needs</h3>
+            <ul class="insight-list">
+              <li>A single place to compare travel options</li>
+              <li>Clear cost and time information</li>
+              <li>Better support for group planning</li>
+              <li>Simpler and more guided workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Storyboards Section -->
     <section class="content-section">
-      <h2>About the Project</h2>
-      <p>
-        GlobeTrotter is a travel planning system designed for college students. The goal of the project is to simplify how students search, compare, and plan trips without switching between multiple platforms.
-      </p>
-      <p>
-        The system supports budget-based planning, comparison of travel options, group decision-making, and itinerary management. It is designed to make the travel planning process more organized, less stressful, and easier to manage.
-      </p>
+      <div class="section-header">
+        <h2>Storyboards</h2>
+        <div class="header-underline"></div>
+      </div>
+      <div class="storyboards-grid">
+        <div class="storyboard-card">
+          <div class="storyboard-header">
+            <h3>Simple Task</h3>
+            <p class="storyboard-subtitle">Budget Trip Planning</p>
+          </div>
+          <p class="storyboard-description">
+            A student searches for travel options within a fixed budget, compares available plans, and saves the best option.
+          </p>
+          <img src="Simple.jpeg" alt="Simple task storyboard - Budget Trip Planning" class="storyboard-image">
+        </div>
+
+        <div class="storyboard-card">
+          <div class="storyboard-header">
+            <h3>Moderate Task</h3>
+            <p class="storyboard-subtitle">Comparing Travel Options</p>
+          </div>
+          <p class="storyboard-description">
+            Users compare multiple travel options and evaluate trade-offs between cost and travel time before making a decision.
+          </p>
+          <img src="Moderate.jpeg" alt="Moderate task storyboard - Comparing Travel Options" class="storyboard-image">
+        </div>
+
+        <div class="storyboard-card">
+          <div class="storyboard-header">
+            <h3>Complex Task</h3>
+            <p class="storyboard-subtitle">Itinerary and Events</p>
+          </div>
+          <p class="storyboard-description">
+            Users manage their itinerary, explore nearby events, compare options, and add selected activities to create a complete travel plan.
+          </p>
+          <img src="Complex.jpeg" alt="Complex task storyboard - Itinerary and Events" class="storyboard-image">
+        </div>
+      </div>
     </section>
 
-    <section class="content-section">
-      <h2>User Research</h2>
-      <p>
-        We conducted semi-structured interviews with six college students to understand how they currently plan trips and what challenges they face. The participants included both undergraduate and graduate students with different levels of travel experience.
-      </p>
-      <p>
-        Our research showed that students often depend on multiple websites and apps to compare flights, hotels, and transportation options. This makes planning time-consuming and mentally tiring. Group travel creates additional difficulty because users must coordinate different budgets, schedules, and preferences.
-      </p>
-
-      <h3>Key Problems</h3>
-      <ul>
-        <li>Switching between multiple travel platforms</li>
-        <li>Slow and unstructured group decision-making</li>
-        <li>Difficulty comparing cost and time trade-offs</li>
-        <li>Planning feels stressful and overwhelming</li>
-      </ul>
-
-      <h3>User Needs</h3>
-      <ul>
-        <li>A single place to compare travel options</li>
-        <li>Clear cost and time information</li>
-        <li>Better support for group planning</li>
-        <li>Simpler and more guided workflows</li>
-      </ul>
-    </section>
-
-    <section class="content-section">
-      <h2>Storyboards</h2>
-
-      <h3>Simple Task – Budget Trip Planning</h3>
-      <p>
-        A student searches for travel options within a fixed budget, compares available plans, and saves the best option.
-      </p>
-      <img src="Simple.jpeg" alt="Simple task storyboard" class="storyboard-image">
-
-      <h3>Moderate Task – Comparing Travel Options</h3>
-      <p>
-        Users compare multiple travel options and evaluate trade-offs between cost and travel time before making a decision.
-      </p>
-      <img src="Moderate.jpeg" alt="Moderate task storyboard" class="storyboard-image">
-
-      <h3>Complex Task – Itinerary and Events</h3>
-      <p>
-        Users manage their itinerary, explore nearby events, compare options, and add selected activities to create a complete travel plan.
-      </p>
-      <img src="Complex.jpeg" alt="Complex task storyboard" class="storyboard-image">
-    </section>
-
-    <section class="content-section links-section">
-      <h2>Prototype Links</h2>
-      <p>
-        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" rel="noopener noreferrer">
+    <!-- Prototype Links Section -->
+    <section class="content-section" id="prototype">
+      <div class="section-header">
+        <h2>Prototype & Links</h2>
+        <div class="header-underline"></div>
+      </div>
+      <div class="links-grid">
+        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" rel="noopener noreferrer" class="link-button">
+          <span class="button-icon">→</span>
           View Figma Mockups
         </a>
-      </p>
-      <p>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="link-button">
+          <span class="button-icon">→</span>
           View Interactive Prototype
         </a>
-      </p>
+      </div>
     </section>
+  </main>
 
-  </div>
-
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 GlobeTrotter. A project by Bharadwaj Manne, Rasheeq Ishmam, and Arturo Calanche.</p>
+  </footer>
 </body>
 </html>
