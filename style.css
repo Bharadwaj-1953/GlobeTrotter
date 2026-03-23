@@ -1,55 +1,69 @@
+/* BASE */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f6f8;
     margin: 0;
-    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1f2937;
+    line-height: 1.6;
 }
 
-/* MAIN CONTAINER (THIS FIXES ALIGNMENT) */
+/* MAIN LAYOUT */
 .container {
-    width: 65%;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
-/* HEADINGS CENTERED */
-h1, h2 {
-    text-align: center;
-}
-
+/* HEADINGS */
 h1 {
+    text-align: center;
+    font-size: 36px;
     margin-bottom: 5px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+/* TAGLINE */
 .tagline {
     text-align: center;
+    font-size: 16px;
+    color: #6b7280;
     margin-bottom: 20px;
 }
 
-/* SECTIONS (NO BOX LOOK) */
+/* SECTIONS */
 section {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-/* IMAGE FIX */
+/* IMAGE (MAIN) */
 .main-image {
     display: block;
     margin: 20px auto;
-    width: 70%;
-    max-width: 800px;
-    border-radius: 6px;
+    width: 75%;
+    max-width: 700px;
+    border-radius: 8px;
 }
 
-/* STORYBOARD SIZE FIX */
+/* STORYBOARDS */
 .storyboard {
     display: block;
     margin: 15px auto 30px auto;
-    width: 80%;
-    max-width: 700px;
+    width: 85%;
+    max-width: 650px;
     border-radius: 6px;
 }
 
-/* LIST CENTER FIX */
+/* LIST CENTER */
 .center-list {
     list-style: none;
     padding: 0;
@@ -57,20 +71,21 @@ section {
 }
 
 .center-list li {
-    margin: 5px 0;
-}
-
-/* LINKS */
-a {
-    color: #2563eb;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    margin: 6px 0;
 }
 
 /* TEXT CENTER */
 .center {
     text-align: center;
+}
+
+/* LINKS */
+a {
+    color: #2563eb;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
