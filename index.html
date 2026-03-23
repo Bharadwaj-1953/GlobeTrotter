@@ -5,175 +5,333 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GlobeTrotter - Smart Travel Planning for Students</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation -->
+  <!-- Navigation Bar -->
   <nav class="navbar">
-    <div class="nav-wrapper">
-      <div class="nav-brand">
-        <h1 class="logo">GlobeTrotter</h1>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-icon">✈</span>
+        <span class="logo-text">GlobeTrotter</span>
       </div>
-      <ul class="nav-links">
-        <li><a href="#team">Team</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#storyboards">Storyboards</a></li>
-        <li><a href="#prototype">Prototype</a></li>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#storyboards" class="nav-link">Storyboards</a></li>
+        <li><a href="#prototypes" class="nav-link">Prototypes</a></li>
+        <li><a href="#team" class="nav-link">Team</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-shape hero-shape-1"></div>
-    <div class="hero-shape hero-shape-2"></div>
+    <div class="hero-background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+    
     <div class="hero-content">
-      <img src="Title.png" alt="GlobeTrotter" class="hero-image">
-      <h2 class="hero-tagline">Plan Smart. Travel Better.</h2>
-      <p class="hero-description">Simplifying travel planning for college students</p>
+      <div class="hero-text">
+        <h1 class="hero-title">GlobeTrotter</h1>
+        <p class="hero-subtitle">Plan Smart. Travel Better.</p>
+        <p class="hero-description">Simplifying travel planning for college students worldwide</p>
+        <div class="hero-cta">
+          <a href="#about" class="cta-button primary">Explore Project</a>
+          <a href="#prototypes" class="cta-button secondary">View Prototype</a>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <img src="Title.png" alt="GlobeTrotter App" class="hero-image">
+      </div>
     </div>
   </section>
 
-  <!-- Main Content -->
-  <main class="container">
-    
-    <!-- Project Introduction -->
-    <section class="section intro-section">
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
       <div class="section-header">
-        <h2>Welcome to the GlobeTrotter Project!</h2>
+        <div class="header-decoration"></div>
+        <h2 class="section-title">Welcome to GlobeTrotter</h2>
+        <div class="header-decoration"></div>
       </div>
-      
-      <div class="intro-content">
-        <div class="intro-box">
-          <h3>About Our Project</h3>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="card-icon">🎯</div>
+          <h3>Our Mission</h3>
           <p>
-            GlobeTrotter is a student-centered travel planning platform designed to make trip planning easier for college students. The project focuses on helping users compare travel options, manage budget limits, reduce planning stress, and coordinate decisions more easily when traveling alone or with a group.
+            GlobeTrotter is a student-centered travel planning platform designed to make trip planning easier for college students. We bring important planning steps into one unified place so users don't need to switch between multiple websites.
           </p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">🌍</div>
+          <h3>What We Do</h3>
           <p>
-            Our goal is to bring important planning steps into one place so users do not need to switch between multiple websites to compare flights, hotels, transportation, and activities. GlobeTrotter also supports itinerary planning and helps users continue organizing their trip after they have selected a destination.
+            We help users compare travel options, manage budgets, reduce planning stress, and coordinate decisions easily when traveling alone or with a group. Our platform supports flights, hotels, activities, and complete itinerary management.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="card-icon">💡</div>
+          <h3>The Problem</h3>
+          <p>
+            Students struggle switching between multiple platforms, face complex group coordination, and experience planning fatigue. GlobeTrotter solves these issues with unified comparison, structured voting, and simplified workflows.
           </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- User Research -->
-    <section class="section research-section" id="research">
+  <!-- Research Section -->
+  <section id="research" class="section research-section">
+    <div class="container">
       <div class="section-header">
-        <h2>User Research Summary</h2>
+        <div class="header-decoration"></div>
+        <h2 class="section-title">User Research</h2>
+        <div class="header-decoration"></div>
       </div>
-      
+
       <div class="research-intro">
-        <p>
-          Our user research focused on understanding how college students plan trips, what challenges they face, and what kind of support they expect from a travel planning system. We conducted semi-structured interviews with six college students with different levels of travel experience and planning confidence.
-        </p>
-        <p>
-          The interviews were conducted on February 4, 2026 at FSU Student Union and lasted approximately 12-15 minutes each. The interviews showed that student travel planning is strongly shaped by budget, time constraints, academic schedules, group coordination, and confidence level in making travel decisions.
+        <p class="intro-text">
+          We conducted semi-structured interviews with <strong>6 college students</strong> on <strong>February 4, 2026</strong> at FSU Student Union. Each session lasted 12-15 minutes and explored how students plan trips, what challenges they face, and what support they expect.
         </p>
       </div>
 
-      <div class="research-grid">
-        <div class="research-box problems-box">
-          <div class="box-header">Key Findings</div>
-          <ul class="list">
-            <li>Students often switch between multiple platforms to compare flights, hotels, and transportation options</li>
-            <li>Group travel decisions take too long because of delayed responses, different budgets, and conflicting preferences</li>
-            <li>Planning feels mentally tiring, especially for students with limited time, low travel experience, or busy academic schedules</li>
+      <div class="findings-grid">
+        <div class="finding-card problem-card">
+          <div class="card-header">
+            <div class="header-icon">⚠</div>
+            <h3>Key Problems</h3>
+          </div>
+          <ul class="finding-list">
+            <li>Switching between multiple platforms causes frustration</li>
+            <li>Group decisions take too long with delayed responses</li>
+            <li>Different budgets and preferences create conflict</li>
+            <li>Planning feels mentally exhausting and overwhelming</li>
+            <li>Information overload makes decisions difficult</li>
           </ul>
         </div>
-        <div class="research-box needs-box">
-          <div class="box-header">What Users Need</div>
-          <ul class="list">
-            <li>A single place to compare affordable travel options</li>
-            <li>Clearer time and cost information</li>
-            <li>More guidance when planning unfamiliar trips</li>
-            <li>Easier ways to coordinate with friends</li>
-            <li>Simpler steps that reduce stress and planning effort</li>
+
+        <div class="finding-card insight-card">
+          <div class="card-header">
+            <div class="header-icon">💭</div>
+            <h3>Key Insights</h3>
+          </div>
+          <ul class="finding-list">
+            <li>Budget is the primary decision factor for all students</li>
+            <li>Time constraints heavily influence planning behavior</li>
+            <li>Less experienced travelers need guidance and reassurance</li>
+            <li>Group travel adds significant complexity to planning</li>
+            <li>Students value simple, streamlined planning tools</li>
+          </ul>
+        </div>
+
+        <div class="finding-card needs-card">
+          <div class="card-header">
+            <div class="header-icon">✓</div>
+            <h3>User Needs</h3>
+          </div>
+          <ul class="finding-list">
+            <li>Single place to compare affordable travel options</li>
+            <li>Clear cost and time information for decisions</li>
+            <li>Guidance for unfamiliar or complex trips</li>
+            <li>Easy group coordination and budget alignment</li>
+            <li>Simplified steps that reduce planning stress</li>
           </ul>
         </div>
       </div>
 
-      <div class="solution-box">
+      <div class="research-response">
         <h3>How GlobeTrotter Responds</h3>
         <p>
-          GlobeTrotter was designed to respond directly to these findings. The system supports travel comparison, cost-based filtering, plan evaluation, group coordination, and itinerary management in one place. These features were chosen to reduce platform switching, support better decisions, and make trip planning more manageable for students.
+          GlobeTrotter was designed to directly address these findings. The system supports travel comparison, cost-based filtering, plan evaluation, group coordination, and itinerary management in one unified place. By reducing platform switching, supporting better decisions, and simplifying planning workflows, GlobeTrotter makes trip planning genuinely manageable for students.
         </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Storyboards -->
-    <section class="section storyboards-section" id="storyboards">
+  <!-- Storyboards Section -->
+  <section id="storyboards" class="section storyboards-section">
+    <div class="container">
       <div class="section-header">
-        <h2>Storyboards</h2>
+        <div class="header-decoration"></div>
+        <h2 class="section-title">How It Works</h2>
+        <div class="header-decoration"></div>
       </div>
 
-      <div class="storyboard-item">
-        <div class="storyboard-info">
-          <div class="storyboard-badge simple">Simple</div>
-          <h3>Simple Task – Budget Trip Planning</h3>
-          <p>A student searches for travel options within a fixed budget, compares available plans, and saves the option that best fits their needs.</p>
-        </div>
-        <img src="Simple.jpeg" alt="Simple Task - Budget Trip Planning" class="storyboard-image">
-      </div>
-
-      <div class="storyboard-item reverse">
-        <img src="Moderate.jpeg" alt="Moderate Task - Comparing Travel Options" class="storyboard-image">
-        <div class="storyboard-info">
-          <div class="storyboard-badge moderate">Moderate</div>
-          <h3>Moderate Task – Comparing Travel Options</h3>
-          <p>Users compare multiple travel choices and evaluate trade-offs between cost and travel time before making a decision.</p>
-        </div>
-      </div>
-
-      <div class="storyboard-item">
-        <div class="storyboard-info">
-          <div class="storyboard-badge complex">Complex</div>
-          <h3>Complex Task – Advanced Travel Planning</h3>
-          <p>Users explore detailed travel choices and make decisions using multiple factors such as budget, duration, and preferences.</p>
-        </div>
-        <img src="Complex.jpeg" alt="Complex Task - Advanced Travel Planning" class="storyboard-image">
-      </div>
-    </section>
-
-    <!-- Prototype Links -->
-    <section class="section prototype-section" id="prototype">
-      <div class="section-header">
-        <h2>Prototype Links</h2>
-      </div>
-      <div class="prototype-links">
-        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" class="proto-link figma-link">
-          <span class="link-icon">F</span>
-          <div>
-            <div class="link-title">Figma Mockups</div>
-            <div class="link-desc">View Design Files</div>
+      <div class="storyboard-container">
+        <!-- Simple Task -->
+        <div class="storyboard-card">
+          <div class="storyboard-badge simple-badge">Simple Task</div>
+          <div class="storyboard-content">
+            <h3>Budget Trip Planning</h3>
+            <p class="storyboard-description">
+              A student searches for travel options within a fixed budget, compares available plans, and saves the option that best fits their needs.
+            </p>
+            <div class="task-flow">
+              <div class="flow-step">
+                <span class="step-number">1</span>
+                <span class="step-text">Set Budget</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">2</span>
+                <span class="step-text">Search</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">3</span>
+                <span class="step-text">Compare</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">4</span>
+                <span class="step-text">Save</span>
+              </div>
+            </div>
           </div>
-        </a>
-        <a href="https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1" target="_blank" class="proto-link interactive-link">
-          <span class="link-icon">P</span>
-          <div>
-            <div class="link-title">Interactive Prototype</div>
-            <div class="link-desc">Try Live Demo</div>
+          <img src="Simple.jpeg" alt="Simple Task Storyboard" class="storyboard-image">
+        </div>
+
+        <!-- Moderate Task -->
+        <div class="storyboard-card">
+          <div class="storyboard-badge moderate-badge">Moderate Task</div>
+          <div class="storyboard-content">
+            <h3>Comparing Travel Options</h3>
+            <p class="storyboard-description">
+              Users compare multiple travel choices and evaluate trade-offs between cost and travel time before making a decision.
+            </p>
+            <div class="task-flow">
+              <div class="flow-step">
+                <span class="step-number">1</span>
+                <span class="step-text">Browse Options</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">2</span>
+                <span class="step-text">Filter & Sort</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">3</span>
+                <span class="step-text">Evaluate</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">4</span>
+                <span class="step-text">Decide</span>
+              </div>
+            </div>
           </div>
+          <img src="Moderate.jpeg" alt="Moderate Task Storyboard" class="storyboard-image">
+        </div>
+
+        <!-- Complex Task -->
+        <div class="storyboard-card">
+          <div class="storyboard-badge complex-badge">Complex Task</div>
+          <div class="storyboard-content">
+            <h3>Advanced Travel Planning</h3>
+            <p class="storyboard-description">
+              Users explore detailed travel choices and make decisions using multiple factors such as budget, duration, and preferences.
+            </p>
+            <div class="task-flow">
+              <div class="flow-step">
+                <span class="step-number">1</span>
+                <span class="step-text">Plan Trip</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">2</span>
+                <span class="step-text">Coordinate</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">3</span>
+                <span class="step-text">Add Events</span>
+              </div>
+              <span class="flow-arrow">→</span>
+              <div class="flow-step">
+                <span class="step-number">4</span>
+                <span class="step-text">Finalize</span>
+              </div>
+            </div>
+          </div>
+          <img src="Complex.jpeg" alt="Complex Task Storyboard" class="storyboard-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prototypes Section -->
+  <section id="prototypes" class="section prototypes-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="header-decoration"></div>
+        <h2 class="section-title">Interactive Prototypes</h2>
+        <div class="header-decoration"></div>
+      </div>
+
+      <div class="prototypes-grid">
+        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" class="prototype-card figma-card">
+          <div class="prototype-icon">🎨</div>
+          <h3>Figma Mockups</h3>
+          <p>Explore detailed design files and visual specifications</p>
+          <span class="card-arrow">→</span>
+        </a>
+        <a href="https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1" target="_blank" class="prototype-card interactive-card">
+          <div class="prototype-icon">🎮</div>
+          <h3>Live Prototype</h3>
+          <p>Try the interactive prototype and explore all features</p>
+          <span class="card-arrow">→</span>
         </a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Team Section -->
-    <section class="section team-section" id="team">
+  <!-- Team Section -->
+  <section id="team" class="section team-section">
+    <div class="container">
       <div class="section-header">
-        <h2>Project Team</h2>
+        <div class="header-decoration"></div>
+        <h2 class="section-title">Meet the Team</h2>
+        <div class="header-decoration"></div>
       </div>
-      <div class="team-info">
-        <p><strong>Team 2 – GlobeTrotter</strong></p>
-        <p>Bharadwaj Manne, Rasheeq Ishmam, Arturo Calanche</p>
-        <p>Florida State University, Spring 2026</p>
-        <p><strong>Course:</strong> CIS5930 - Human-Computer Interaction</p>
-      </div>
-    </section>
 
-  </main>
+      <div class="team-card-main">
+        <div class="team-header">
+          <h3>Team 2 – GlobeTrotter</h3>
+          <p class="team-subtitle">Florida State University | Spring 2026 | CIS5930 Human-Computer Interaction</p>
+        </div>
+        <div class="team-members">
+          <div class="member">
+            <div class="member-initial">BM</div>
+            <h4>Bharadwaj Manne</h4>
+          </div>
+          <div class="member">
+            <div class="member-initial">RI</div>
+            <h4>Rasheeq Ishmam</h4>
+          </div>
+          <div class="member">
+            <div class="member-initial">AC</div>
+            <h4>Arturo Calanche</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <p>&copy; 2026 GlobeTrotter. A project by Bharadwaj Manne, Rasheeq Ishmam, and Arturo Calanche.</p>
+    <div class="footer-content">
+      <p>&copy; 2026 GlobeTrotter. Crafted with passion by Bharadwaj Manne, Rasheeq Ishmam, and Arturo Calanche.</p>
+      <p class="footer-meta">Florida State University | HCI Project | Spring 2026</p>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
