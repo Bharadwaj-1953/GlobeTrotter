@@ -1,99 +1,69 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
+    background-color: #f5f6f8;
+    margin: 0;
     color: #333;
-}
-
-/* HERO */
-.hero {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.hero img {
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-    filter: brightness(70%);
-}
-
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.hero-text h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-
-.tagline {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.subtext {
-    margin-top: 10px;
-    font-size: 16px;
-    max-width: 600px;
 }
 
 /* SECTIONS */
 .section {
+    width: 70%;
+    margin: 40px auto;
     background: white;
     padding: 30px;
-    margin: 40px auto;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-.section h2 {
-    margin-bottom: 15px;
-    color: #1e3a8a;
-}
-
-.section h3 {
-    margin-top: 20px;
-}
-
-.section ul {
-    padding-left: 20px;
-}
-
-/* STORYBOARD IMAGES */
-.storyboard {
-    width: 100%;
-    margin-top: 15px;
     border-radius: 8px;
 }
 
-/* LINKS */
-.links {
-    display: flex;
-    gap: 20px;
+/* CENTER */
+.center {
+    text-align: center;
 }
 
-.links a {
-    background-color: #2563eb;
-    color: white;
-    padding: 12px 20px;
+/* TITLE */
+h1 {
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* MAIN IMAGE */
+.main-image {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* STORYBOARD */
+.storyboard {
+    width: 100%;
+    margin-top: 15px;
     border-radius: 6px;
+}
+
+/* LISTS */
+ul {
+    padding-left: 20px;
+}
+
+/* LINKS */
+a {
+    color: #2563eb;
     text-decoration: none;
 }
 
-.links a:hover {
-    background-color: #1e40af;
-}
-
-/* FOOTER */
-footer {
-    background-color: #1e293b;
-    color: white;
-    text-align: center;
-    padding: 20px;
+a:hover {
+    text-decoration: underline;
 }
