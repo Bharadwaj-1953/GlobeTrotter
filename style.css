@@ -1,89 +1,99 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f7fa;
+    background-color: #f4f6f8;
     color: #333;
 }
 
-/* HEADER */
-header {
+/* HERO */
+.hero {
+    position: relative;
     text-align: center;
-    padding: 40px 20px;
-    background: #1e3a8a;
     color: white;
 }
 
-.tagline {
-    margin-top: 10px;
-    font-size: 18px;
-    opacity: 0.9;
-}
-
-/* HERO */
 .hero img {
     width: 100%;
-    max-height: 400px;
+    height: 450px;
     object-fit: cover;
+    filter: brightness(70%);
 }
 
-/* SECTION */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.subtext {
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: 600px;
+}
+
+/* SECTIONS */
 .section {
-    max-width: 1000px;
+    background: white;
+    padding: 30px;
     margin: 40px auto;
-    padding: 0 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .section h2 {
     margin-bottom: 15px;
+    color: #1e3a8a;
 }
 
-/* CARDS */
-.cards {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+.section h3 {
+    margin-top: 20px;
 }
 
-.card {
-    flex: 1;
-    min-width: 250px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.section ul {
+    padding-left: 20px;
 }
 
-/* STORYBOARD */
+/* STORYBOARD IMAGES */
 .storyboard {
-    margin-bottom: 40px;
-}
-
-.storyboard img {
     width: 100%;
-    border-radius: 10px;
-    margin: 15px 0;
+    margin-top: 15px;
+    border-radius: 8px;
 }
 
 /* LINKS */
+.links {
+    display: flex;
+    gap: 20px;
+}
+
 .links a {
-    display: inline-block;
-    margin-right: 20px;
-    padding: 10px 20px;
-    background: #2563eb;
+    background-color: #2563eb;
     color: white;
-    text-decoration: none;
+    padding: 12px 20px;
     border-radius: 6px;
+    text-decoration: none;
 }
 
 .links a:hover {
-    background: #1d4ed8;
+    background-color: #1e40af;
 }
 
 /* FOOTER */
 footer {
-    text-align: center;
-    padding: 30px;
-    background: #111827;
+    background-color: #1e293b;
     color: white;
-    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
 }
