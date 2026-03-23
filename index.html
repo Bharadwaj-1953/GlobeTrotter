@@ -1,123 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GlobeTrotter</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GlobeTrotter</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
+  <div class="page">
 
-    <!-- TITLE -->
-    <section class="center">
-        <h1>GlobeTrotter</h1>
-        <p class="tagline">Plan Smart. Travel Better.</p>
-        <img src="Title.png" alt="GlobeTrotter Banner" class="main-image">
+    <header class="site-header">
+      <h1>GlobeTrotter</h1>
+      <p class="tagline">Plan Smart. Travel Better.</p>
+    </header>
+
+    <section class="hero-section">
+      <img src="Title.png" alt="GlobeTrotter hero image" class="hero-image">
     </section>
 
-    <!-- TEAM -->
-    <section>
-        <h2>Project Team</h2>
-        <ul class="center-list">
-            <li>Bharadwaj Manne</li>
-            <li>Rasheeq Ishmam</li>
-            <li>Arturo Calanche</li>
-        </ul>
+    <section class="content-section">
+      <h2>Project Team</h2>
+      <ul class="team-list">
+        <li>Bharadwaj Manne</li>
+        <li>Rasheeq Ishmam</li>
+        <li>Arturo Calanche</li>
+      </ul>
     </section>
 
-    <!-- ABOUT -->
-    <section>
-        <h2>About the Project</h2>
-        <p>
-            GlobeTrotter is a travel planning system designed for college students. The goal of the system 
-            is to simplify how students search, compare, and plan trips without switching between multiple platforms.
-        </p>
-        <p>
-            The system allows users to explore travel options based on budget, preferences, and constraints, 
-            compare different plans, and make informed decisions. It also supports group planning and itinerary 
-            management, making the overall experience more structured and efficient.
-        </p>
+    <section class="content-section">
+      <h2>About the Project</h2>
+      <p>
+        GlobeTrotter is a travel planning system designed for college students. The goal of the project is to simplify how students search, compare, and plan trips without switching between multiple platforms.
+      </p>
+      <p>
+        The system supports budget-based planning, comparison of travel options, group decision-making, and itinerary management. It is designed to make the travel planning process more organized, less stressful, and easier to manage.
+      </p>
     </section>
 
-    <!-- USER RESEARCH -->
-    <section>
-        <h2>User Research</h2>
+    <section class="content-section">
+      <h2>User Research</h2>
+      <p>
+        We conducted semi-structured interviews with six college students to understand how they currently plan trips and what challenges they face. The participants included both undergraduate and graduate students with different levels of travel experience.
+      </p>
+      <p>
+        Our research showed that students often depend on multiple websites and apps to compare flights, hotels, and transportation options. This makes planning time-consuming and mentally tiring. Group travel creates additional difficulty because users must coordinate different budgets, schedules, and preferences.
+      </p>
 
-        <p>
-            We conducted semi-structured interviews with six college students to understand how they currently 
-            plan trips and the challenges they face. Participants included both undergraduate and graduate students 
-            with varying levels of travel experience.
-        </p>
+      <h3>Key Problems</h3>
+      <ul>
+        <li>Switching between multiple travel platforms</li>
+        <li>Slow and unstructured group decision-making</li>
+        <li>Difficulty comparing cost and time trade-offs</li>
+        <li>Planning feels stressful and overwhelming</li>
+      </ul>
 
-        <p>
-            Students reported that planning trips requires switching between multiple platforms such as airline 
-            websites and booking apps. This process is time-consuming and makes it difficult to compare options. 
-            Group travel adds additional complexity when balancing preferences, cost, and schedules.
-        </p>
-
-        <h3>Key Problems</h3>
-        <ul>
-            <li>Switching between multiple platforms</li>
-            <li>Slow and unstructured group decision-making</li>
-            <li>Difficulty comparing cost and time trade-offs</li>
-            <li>Planning feels overwhelming</li>
-        </ul>
-
-        <h3>User Needs</h3>
-        <ul>
-            <li>Compare options in one place</li>
-            <li>Clear cost and time information</li>
-            <li>Support for group coordination</li>
-            <li>Simple and guided workflows</li>
-        </ul>
+      <h3>User Needs</h3>
+      <ul>
+        <li>A single place to compare travel options</li>
+        <li>Clear cost and time information</li>
+        <li>Better support for group planning</li>
+        <li>Simpler and more guided workflows</li>
+      </ul>
     </section>
 
-    <!-- STORYBOARDS -->
-    <section>
-        <h2>Storyboards</h2>
+    <section class="content-section">
+      <h2>Storyboards</h2>
 
-        <h3>Simple Task – Budget Trip Planning</h3>
-        <p>
-            A student searches for travel options within a fixed budget, compares available plans, 
-            and selects the best option.
-        </p>
-        <img src="Simple.jpeg" alt="Simple Task" class="storyboard">
+      <h3>Simple Task – Budget Trip Planning</h3>
+      <p>
+        A student searches for travel options within a fixed budget, compares available plans, and saves the best option.
+      </p>
+      <img src="Simple.jpeg" alt="Simple task storyboard" class="storyboard-image">
 
-        <h3>Moderate Task – Comparing Travel Options</h3>
-        <p>
-            Users compare multiple travel options and evaluate trade-offs between cost and travel time 
-            before making a decision.
-        </p>
-        <img src="Moderate.jpeg" alt="Moderate Task" class="storyboard">
+      <h3>Moderate Task – Comparing Travel Options</h3>
+      <p>
+        Users compare multiple travel options and evaluate trade-offs between cost and travel time before making a decision.
+      </p>
+      <img src="Moderate.jpeg" alt="Moderate task storyboard" class="storyboard-image">
 
-        <h3>Complex Task – Itinerary and Events</h3>
-        <p>
-            Users manage their itinerary, explore nearby events, compare options, and add selected activities 
-            to create a complete travel plan.
-        </p>
-        <img src="Complex.jpeg" alt="Complex Task" class="storyboard">
+      <h3>Complex Task – Itinerary and Events</h3>
+      <p>
+        Users manage their itinerary, explore nearby events, compare options, and add selected activities to create a complete travel plan.
+      </p>
+      <img src="Complex.jpeg" alt="Complex task storyboard" class="storyboard-image">
     </section>
 
-    <!-- LINKS -->
-    <section>
-        <h2>Prototype Links</h2>
-
-        <p class="center">
-            <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank">
-                View Figma Mockups
-            </a>
-        </p>
-
-        <p class="center">
-            <a href="#" target="_blank">
-                View Interactive Prototype (Add Link)
-            </a>
-        </p>
+    <section class="content-section links-section">
+      <h2>Prototype Links</h2>
+      <p>
+        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" rel="noopener noreferrer">
+          View Figma Mockups
+        </a>
+      </p>
+      <p>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          View Interactive Prototype
+        </a>
+      </p>
     </section>
 
-</div>
+  </div>
 
 </body>
 </html>
