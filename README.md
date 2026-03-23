@@ -87,9 +87,9 @@ Users explore detailed options, coordinate with groups, discover local events, a
 
 ## Team Members
 
-- **Bharadwaj Manne** - Project Lead
-- **Rasheeq Ishmam** - UX Designer
-- **Arturo Calanche** - Developer
+- **Bharadwaj Manne** 
+- **Rasheeq Ishmam** 
+- **Arturo Calanche**
 
 ---
 
@@ -132,21 +132,6 @@ GlobeTrotter/
 
 ---
 
-## Technologies Used
-
-**Current:**
-- HTML5, CSS3, JavaScript (Vanilla)
-- Figma for design and prototyping
-- Google Fonts (Poppins, Inter)
-
-**Future (High-Fidelity Development):**
-- React.js with TypeScript
-- Node.js with Express
-- MongoDB or PostgreSQL
-- Real travel APIs (Google Flights, Booking.com, Eventbrite)
-
----
-
 ## Key Features
 
 ### For Individual Travelers
@@ -163,17 +148,6 @@ GlobeTrotter/
 - Real-time participation tracking
 - Automatic recalculation when members change
 
----
-
-## Design Process
-
-1. **User Research (P2)** - Conducted interviews and identified pain points
-2. **Lo-Fi Prototyping (P3)** - Created hand-sketched prototypes and tested with users
-3. **Medium-Fidelity Design (P4)** - Refined visual design and created interactive prototypes
-4. **Heuristic Evaluation (P5)** - Expert review of design against usability principles
-5. **High-Fidelity Development (P6)** - Full functional implementation with real APIs (future)
-
----
 
 ## Feedback & Support
 
