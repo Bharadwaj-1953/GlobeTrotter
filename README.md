@@ -54,18 +54,6 @@ Users compare multiple choices and evaluate trade-offs between cost and travel t
 **Complex Task:** Advanced Travel Planning  
 Users explore detailed options, coordinate with groups, discover local events, and build complete itineraries.
 
----
-
-## Design Highlights
-
-- **Clean, Modern Interface** - Professional design with intuitive navigation
-- **Blue & Green Color Scheme** - Trust and action-oriented palette
-- **Card-Based Layout** - Easy scanning and comparison
-- **Responsive Design** - Works on desktop, tablet, and mobile
-- **Interactive Components** - Smooth animations and clear feedback
-
----
-
 ## Prototypes
 
 **Interactive Prototype:** [View Live Prototype](https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1)
