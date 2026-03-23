@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GlobeTrotter - Smart Travel Planning for Students</title>
+  <title>GlobeTrotter - Smart Student Travel Planner</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Navigation Bar -->
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-logo">
-        <span class="logo-icon">✈</span>
+        <span class="logo-icon">🌍</span>
         <span class="logo-text">GlobeTrotter</span>
       </div>
       <ul class="nav-menu">
@@ -24,311 +24,430 @@
         <li><a href="#prototypes" class="nav-link">Prototypes</a></li>
         <li><a href="#team" class="nav-link">Team</a></li>
       </ul>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-background">
-      <div class="gradient-orb orb-1"></div>
-      <div class="gradient-orb orb-2"></div>
-      <div class="gradient-orb orb-3"></div>
+      <div class="gradient-blob blob-1"></div>
+      <div class="gradient-blob blob-2"></div>
+      <div class="gradient-blob blob-3"></div>
     </div>
     
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1 class="hero-title">GlobeTrotter</h1>
-        <p class="hero-subtitle">Plan Smart. Travel Better.</p>
-        <p class="hero-description">Simplifying travel planning for college students worldwide</p>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">Welcome to Innovation</div>
+        <h1 class="hero-title">
+          Plan Smart.<br>Travel Better.
+        </h1>
+        <p class="hero-subtitle">
+          Simplifying travel planning for college students. One platform. Endless possibilities.
+        </p>
         <div class="hero-cta">
-          <a href="#about" class="cta-button primary">Explore Project</a>
-          <a href="#prototypes" class="cta-button secondary">View Prototype</a>
+          <a href="#prototypes" class="btn btn-primary">See Prototypes</a>
+          <a href="#research" class="btn btn-secondary">Learn More</a>
         </div>
       </div>
-      <div class="hero-image-wrapper">
-        <img src="Title.png" alt="GlobeTrotter App" class="hero-image">
+      
+      <div class="hero-image">
+        <img src="Title.png" alt="GlobeTrotter App" class="main-image">
       </div>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="section about-section">
-    <div class="container">
+  <section class="section about-section" id="about">
+    <div class="section-container">
       <div class="section-header">
-        <div class="header-decoration"></div>
-        <h2 class="section-title">Welcome to GlobeTrotter</h2>
-        <div class="header-decoration"></div>
+        <h2>About GlobeTrotter</h2>
+        <p class="section-subtitle">Solving real problems for college students</p>
       </div>
 
       <div class="about-grid">
         <div class="about-card">
-          <div class="card-icon">🎯</div>
-          <h3>Our Mission</h3>
-          <p>
-            GlobeTrotter is a student-centered travel planning platform designed to make trip planning easier for college students. We bring important planning steps into one unified place so users don't need to switch between multiple websites.
-          </p>
+          <div class="card-icon">📱</div>
+          <h3>Unified Platform</h3>
+          <p>Compare flights, hotels, and activities in one place. No more switching between multiple websites and wasting time.</p>
         </div>
+        
         <div class="about-card">
-          <div class="card-icon">🌍</div>
-          <h3>What We Do</h3>
-          <p>
-            We help users compare travel options, manage budgets, reduce planning stress, and coordinate decisions easily when traveling alone or with a group. Our platform supports flights, hotels, activities, and complete itinerary management.
-          </p>
+          <div class="card-icon">💰</div>
+          <h3>Budget Smart</h3>
+          <p>Control your spending with intuitive budget sliders and cost breakdowns. Make informed decisions based on what matters to you.</p>
         </div>
+        
         <div class="about-card">
-          <div class="card-icon">💡</div>
-          <h3>The Problem</h3>
-          <p>
-            Students struggle switching between multiple platforms, face complex group coordination, and experience planning fatigue. GlobeTrotter solves these issues with unified comparison, structured voting, and simplified workflows.
-          </p>
+          <div class="card-icon">👥</div>
+          <h3>Group Coordination</h3>
+          <p>Align preferences and budgets with friends easily. Voting, shared planning, and automatic recalculations reduce friction.</p>
+        </div>
+        
+        <div class="about-card">
+          <div class="card-icon">✈️</div>
+          <h3>Stress-Free Planning</h3>
+          <p>Simplified workflows and guided steps make planning manageable. Even inexperienced travelers feel confident deciding.</p>
+        </div>
+      </div>
+
+      <div class="about-highlight">
+        <h3>The Problem We Solve</h3>
+        <div class="problems-grid">
+          <div class="problem">
+            <span class="problem-number">1</span>
+            <p><strong>Platform Switching</strong> - Students jump between 3-5 websites just to compare options</p>
+          </div>
+          <div class="problem">
+            <span class="problem-number">2</span>
+            <p><strong>Group Chaos</strong> - Coordinating with friends takes forever and leads to compromises nobody likes</p>
+          </div>
+          <div class="problem">
+            <span class="problem-number">3</span>
+            <p><strong>Decision Fatigue</strong> - Information overload and stress make planning mentally exhausting</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Research Section -->
-  <section id="research" class="section research-section">
-    <div class="container">
+  <section class="section research-section" id="research">
+    <div class="section-container">
       <div class="section-header">
-        <div class="header-decoration"></div>
-        <h2 class="section-title">User Research</h2>
-        <div class="header-decoration"></div>
+        <h2>User Research</h2>
+        <p class="section-subtitle">Understanding how college students really plan trips</p>
       </div>
 
       <div class="research-intro">
-        <p class="intro-text">
-          We conducted semi-structured interviews with <strong>6 college students</strong> on <strong>February 4, 2026</strong> at FSU Student Union. Each session lasted 12-15 minutes and explored how students plan trips, what challenges they face, and what support they expect.
-        </p>
-      </div>
-
-      <div class="findings-grid">
-        <div class="finding-card problem-card">
-          <div class="card-header">
-            <div class="header-icon">⚠</div>
-            <h3>Key Problems</h3>
-          </div>
-          <ul class="finding-list">
-            <li>Switching between multiple platforms causes frustration</li>
-            <li>Group decisions take too long with delayed responses</li>
-            <li>Different budgets and preferences create conflict</li>
-            <li>Planning feels mentally exhausting and overwhelming</li>
-            <li>Information overload makes decisions difficult</li>
-          </ul>
-        </div>
-
-        <div class="finding-card insight-card">
-          <div class="card-header">
-            <div class="header-icon">💭</div>
-            <h3>Key Insights</h3>
-          </div>
-          <ul class="finding-list">
-            <li>Budget is the primary decision factor for all students</li>
-            <li>Time constraints heavily influence planning behavior</li>
-            <li>Less experienced travelers need guidance and reassurance</li>
-            <li>Group travel adds significant complexity to planning</li>
-            <li>Students value simple, streamlined planning tools</li>
-          </ul>
-        </div>
-
-        <div class="finding-card needs-card">
-          <div class="card-header">
-            <div class="header-icon">✓</div>
-            <h3>User Needs</h3>
-          </div>
-          <ul class="finding-list">
-            <li>Single place to compare affordable travel options</li>
-            <li>Clear cost and time information for decisions</li>
-            <li>Guidance for unfamiliar or complex trips</li>
-            <li>Easy group coordination and budget alignment</li>
-            <li>Simplified steps that reduce planning stress</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="research-response">
-        <h3>How GlobeTrotter Responds</h3>
         <p>
-          GlobeTrotter was designed to directly address these findings. The system supports travel comparison, cost-based filtering, plan evaluation, group coordination, and itinerary management in one unified place. By reducing platform switching, supporting better decisions, and simplifying planning workflows, GlobeTrotter makes trip planning genuinely manageable for students.
+          We conducted in-depth interviews with <strong>6 college students</strong> on February 4, 2026. Different travel styles. Different budgets. Different confidence levels. All facing the same core problems.
         </p>
+      </div>
+
+      <div class="research-findings">
+        <div class="findings-card findings-card-1">
+          <div class="findings-icon">🔄</div>
+          <h3>Platform Fragmentation</h3>
+          <p>Students repeatedly switch between Google Flights, Expedia, Airbnb, and more. Each platform shows different information, making comparison impossible without tedious manual work.</p>
+        </div>
+
+        <div class="findings-card findings-card-2">
+          <div class="findings-icon">⏱️</div>
+          <h3>Time Pressure</h3>
+          <p>Between classes, work, and other commitments, students have limited time. Many accept higher costs or shorter trips just to save planning time.</p>
+        </div>
+
+        <div class="findings-card findings-card-3">
+          <div class="findings-icon">👨‍👩‍👧‍👦</div>
+          <h3>Group Coordination Nightmare</h3>
+          <p>Group travel decisions drag on. Different budgets, conflicting schedules, delayed responses. Group chats become chaotic. Someone always feels like they compromised.</p>
+        </div>
+      </div>
+
+      <div class="user-needs">
+        <h3>What Users Need</h3>
+        <div class="needs-list">
+          <div class="need-item">
+            <span class="checkmark">✓</span>
+            <div>
+              <strong>Single Unified View</strong>
+              <p>Compare flights, hotels, and activities without leaving the platform</p>
+            </div>
+          </div>
+          <div class="need-item">
+            <span class="checkmark">✓</span>
+            <div>
+              <strong>Clear Cost Information</strong>
+              <p>See total costs immediately. Understand price breakdowns. Make budget-conscious decisions fast</p>
+            </div>
+          </div>
+          <div class="need-item">
+            <span class="checkmark">✓</span>
+            <div>
+              <strong>Effortless Group Planning</strong>
+              <p>Vote on destinations. Align budgets privately. Get automatic updates when plans change</p>
+            </div>
+          </div>
+          <div class="need-item">
+            <span class="checkmark">✓</span>
+            <div>
+              <strong>Reduced Stress</strong>
+              <p>Simple steps. Clear guidance. Less information overload. Planning feels manageable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solution Section -->
+  <section class="section solution-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>How GlobeTrotter Responds</h2>
+        <p class="section-subtitle">Design decisions backed by research</p>
+      </div>
+
+      <div class="solution-intro">
+        <p>
+          We didn't guess what students needed. We listened. We researched. Now we're building exactly what solves their real problems.
+        </p>
+      </div>
+
+      <div class="solution-features">
+        <div class="feature">
+          <div class="feature-number">01</div>
+          <div class="feature-content">
+            <h3>Unified Travel Comparison</h3>
+            <p>Flights, hotels, and local events in one dashboard. Smart filtering by budget, time, and preferences. No more tab switching.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-number">02</div>
+          <div class="feature-content">
+            <h3>Cost-Based Filtering</h3>
+            <p>Budget sliders let you instantly see what's affordable. Total costs displayed prominently. Trade-off visualizations help you choose between cost and time.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-number">03</div>
+          <div class="feature-content">
+            <h3>Group Coordination Tools</h3>
+            <p>Shared dashboards. Structured voting on destinations. Private budget inputs with transparent overlapping ranges. Auto-recalculation when group changes.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-number">04</div>
+          <div class="feature-content">
+            <h3>Itinerary Management</h3>
+            <p>Plan your trip. Discover local events. Add activities to your itinerary. See everything integrated into one complete travel plan.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Storyboards Section -->
-  <section id="storyboards" class="section storyboards-section">
-    <div class="container">
+  <section class="section storyboards-section" id="storyboards">
+    <div class="section-container">
       <div class="section-header">
-        <div class="header-decoration"></div>
-        <h2 class="section-title">How It Works</h2>
-        <div class="header-decoration"></div>
+        <h2>See It In Action</h2>
+        <p class="section-subtitle">Three user scenarios. Three levels of complexity.</p>
       </div>
 
-      <div class="storyboard-container">
+      <div class="storyboards-container">
         <!-- Simple Task -->
-        <div class="storyboard-card">
-          <div class="storyboard-badge simple-badge">Simple Task</div>
+        <div class="storyboard-card simple-task">
+          <div class="storyboard-badge simple-badge">Simple</div>
           <div class="storyboard-content">
             <h3>Budget Trip Planning</h3>
-            <p class="storyboard-description">
-              A student searches for travel options within a fixed budget, compares available plans, and saves the option that best fits their needs.
-            </p>
-            <div class="task-flow">
-              <div class="flow-step">
-                <span class="step-number">1</span>
-                <span class="step-text">Set Budget</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">2</span>
-                <span class="step-text">Search</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">3</span>
-                <span class="step-text">Compare</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">4</span>
-                <span class="step-text">Save</span>
-              </div>
-            </div>
+            <p class="storyboard-subtitle">The Quick Decision</p>
+            <p>A student with a $400 budget searches for weekend travel. Compares options. Finds the best deal. Saves the plan. Done in minutes.</p>
+            <ul class="task-steps">
+              <li>Search with budget constraint</li>
+              <li>Compare bundled options</li>
+              <li>See total costs clearly</li>
+              <li>Save favorite plan</li>
+            </ul>
           </div>
-          <img src="Simple.jpeg" alt="Simple Task Storyboard" class="storyboard-image">
+          <img src="Simple.jpeg" alt="Simple Task Storyboard" class="storyboard-img">
         </div>
 
         <!-- Moderate Task -->
-        <div class="storyboard-card">
-          <div class="storyboard-badge moderate-badge">Moderate Task</div>
+        <div class="storyboard-card moderate-task">
+          <div class="storyboard-badge moderate-badge">Moderate</div>
           <div class="storyboard-content">
             <h3>Comparing Travel Options</h3>
-            <p class="storyboard-description">
-              Users compare multiple travel choices and evaluate trade-offs between cost and travel time before making a decision.
-            </p>
-            <div class="task-flow">
-              <div class="flow-step">
-                <span class="step-number">1</span>
-                <span class="step-text">Browse Options</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">2</span>
-                <span class="step-text">Filter & Sort</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">3</span>
-                <span class="step-text">Evaluate</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">4</span>
-                <span class="step-text">Decide</span>
-              </div>
-            </div>
+            <p class="storyboard-subtitle">The Trade-Off Decision</p>
+            <p>Friends already planned their trip. Now they want local events. Filter by budget, distance, rating. Compare. Add favorites to itinerary. Planning complete.</p>
+            <ul class="task-steps">
+              <li>Explore suggested events</li>
+              <li>Apply multiple filters</li>
+              <li>Compare event options</li>
+              <li>Integrate into itinerary</li>
+            </ul>
           </div>
-          <img src="Moderate.jpeg" alt="Moderate Task Storyboard" class="storyboard-image">
+          <img src="Moderate.jpeg" alt="Moderate Task Storyboard" class="storyboard-img">
         </div>
 
         <!-- Complex Task -->
-        <div class="storyboard-card">
-          <div class="storyboard-badge complex-badge">Complex Task</div>
+        <div class="storyboard-card complex-task">
+          <div class="storyboard-badge complex-badge">Complex</div>
           <div class="storyboard-content">
             <h3>Advanced Travel Planning</h3>
-            <p class="storyboard-description">
-              Users explore detailed travel choices and make decisions using multiple factors such as budget, duration, and preferences.
-            </p>
-            <div class="task-flow">
-              <div class="flow-step">
-                <span class="step-number">1</span>
-                <span class="step-text">Plan Trip</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">2</span>
-                <span class="step-text">Coordinate</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">3</span>
-                <span class="step-text">Add Events</span>
-              </div>
-              <span class="flow-arrow">→</span>
-              <div class="flow-step">
-                <span class="step-number">4</span>
-                <span class="step-text">Finalize</span>
-              </div>
-            </div>
+            <p class="storyboard-subtitle">The Group Decision</p>
+            <p>4 friends create a group trip. Each enters budget privately. Vote on destinations. Someone drops out. System recalculates. Group votes again. New winner. Trip saved.</p>
+            <ul class="task-steps">
+              <li>Create shared group trip</li>
+              <li>Vote on destinations</li>
+              <li>Handle group changes</li>
+              <li>Dynamic cost recalculation</li>
+            </ul>
           </div>
-          <img src="Complex.jpeg" alt="Complex Task Storyboard" class="storyboard-image">
+          <img src="Complex.jpeg" alt="Complex Task Storyboard" class="storyboard-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Philosophy Section -->
+  <section class="section design-section">
+    <div class="section-container">
+      <div class="section-header">
+        <h2>Design Philosophy</h2>
+        <p class="section-subtitle">Simplicity meets functionality</p>
+      </div>
+
+      <div class="design-grid">
+        <div class="design-card">
+          <h3>Clarity First</h3>
+          <p>Every button, every piece of information, every action has a clear purpose. Students don't have time for confusion.</p>
+        </div>
+
+        <div class="design-card">
+          <h3>Visual Hierarchy</h3>
+          <p>Important information stands out. Blue conveys trust and reliability. Teal highlights actions. Clean typography aids scanning.</p>
+        </div>
+
+        <div class="design-card">
+          <h3>Reduced Cognitive Load</h3>
+          <p>Generous whitespace. Smart grouping. Progressive disclosure. Features appear when needed, not all at once.</p>
+        </div>
+
+        <div class="design-card">
+          <h3>Consistent Patterns</h3>
+          <p>Cards, buttons, filters work the same everywhere. Users learn once, apply everywhere. Predictable is good.</p>
+        </div>
+
+        <div class="design-card">
+          <h3>Feedback Matters</h3>
+          <p>Changes are confirmed. State is communicated clearly. Users always know what happened or what will happen next.</p>
+        </div>
+
+        <div class="design-card">
+          <h3>Mobile Ready</h3>
+          <p>Responsive design from the ground up. Touch-friendly interactions. Works seamlessly on phones, tablets, desktops.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Prototypes Section -->
-  <section id="prototypes" class="section prototypes-section">
-    <div class="container">
+  <section class="section prototypes-section" id="prototypes">
+    <div class="section-container">
       <div class="section-header">
-        <div class="header-decoration"></div>
-        <h2 class="section-title">Interactive Prototypes</h2>
-        <div class="header-decoration"></div>
+        <h2>Interactive Prototypes</h2>
+        <p class="section-subtitle">See and interact with the designs</p>
       </div>
 
       <div class="prototypes-grid">
-        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" class="prototype-card figma-card">
-          <div class="prototype-icon">🎨</div>
+        <a href="https://www.figma.com/design/uEHRxeN1XMnFgGxF1q5PIS/HCI-Moderate-and-Complex?node-id=0-1&p=f" target="_blank" class="prototype-link figma-link">
+          <div class="prototype-icon">📐</div>
           <h3>Figma Mockups</h3>
-          <p>Explore detailed design files and visual specifications</p>
-          <span class="card-arrow">→</span>
+          <p>High-fidelity design files with all screens and components</p>
+          <span class="link-arrow">View Designs →</span>
         </a>
-        <a href="https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1" target="_blank" class="prototype-card interactive-card">
-          <div class="prototype-icon">🎮</div>
-          <h3>Live Prototype</h3>
-          <p>Try the interactive prototype and explore all features</p>
-          <span class="card-arrow">→</span>
+
+        <a href="https://www.figma.com/proto/8gMT4staWZ1SPXTjnKrVR4/GlobeTrotter?node-id=0-1&t=qGxLTorzrn9pN5ZN-1" target="_blank" class="prototype-link interactive-link">
+          <div class="prototype-icon">▶️</div>
+          <h3>Interactive Prototype</h3>
+          <p>Clickable prototype with working flows and transitions</p>
+          <span class="link-arrow">Try Demo →</span>
         </a>
+      </div>
+
+      <div class="prototype-info">
+        <div class="info-box">
+          <h4>What's Included</h4>
+          <ul>
+            <li>Three complete task flows (Simple, Moderate, Complex)</li>
+            <li>Interactive clickable prototypes with full user flows</li>
+            <li>Consistent design system (colors, typography, components)</li>
+            <li>Core interactions (filtering, comparing, saving, voting)</li>
+            <li>Feedback mechanisms and state management</li>
+          </ul>
+        </div>
+
+        <div class="info-box">
+          <h4>Limitations</h4>
+          <ul>
+            <li>Uses static mock data, not connected to real APIs</li>
+            <li>Booking and payment processing not implemented</li>
+            <li>Group interactions are simulated, not dynamically synchronized</li>
+            <li>No real-time backend updates or authentication</li>
+            <li>This is a design prototype, not a production app</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Team Section -->
-  <section id="team" class="section team-section">
-    <div class="container">
+  <section class="section team-section" id="team">
+    <div class="section-container">
       <div class="section-header">
-        <div class="header-decoration"></div>
-        <h2 class="section-title">Meet the Team</h2>
-        <div class="header-decoration"></div>
+        <h2>The Team</h2>
+        <p class="section-subtitle">Florida State University, Spring 2026</p>
       </div>
 
-      <div class="team-card-main">
-        <div class="team-header">
-          <h3>Team 2 – GlobeTrotter</h3>
-          <p class="team-subtitle">Florida State University | Spring 2026 | CIS5930 Human-Computer Interaction</p>
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-avatar">BM</div>
+          <h3>Bharadwaj Manne</h3>
+          <p>Project Lead & Backend Strategy</p>
+          <p class="member-details">Focuses on backend systems, API integration, and data flow design</p>
         </div>
-        <div class="team-members">
-          <div class="member">
-            <div class="member-initial">BM</div>
-            <h4>Bharadwaj Manne</h4>
-          </div>
-          <div class="member">
-            <div class="member-initial">RI</div>
-            <h4>Rasheeq Ishmam</h4>
-          </div>
-          <div class="member">
-            <div class="member-initial">AC</div>
-            <h4>Arturo Calanche</h4>
-          </div>
+
+        <div class="team-member">
+          <div class="member-avatar">RI</div>
+          <h3>Rasheeq Ishmam</h3>
+          <p>UX/UI Designer</p>
+          <p class="member-details">Leads user research, interaction design, and visual design</p>
         </div>
+
+        <div class="team-member">
+          <div class="member-avatar">AC</div>
+          <h3>Arturo Calanche</h3>
+          <p>Frontend Developer & Usability</p>
+          <p class="member-details">Handles front-end implementation and usability testing</p>
+        </div>
+      </div>
+
+      <div class="team-info">
+        <h3>Course Information</h3>
+        <p><strong>CIS5930</strong> - Human-Computer Interaction</p>
+        <p><strong>Institution</strong> - Florida State University</p>
+        <p><strong>Project</strong> - GlobeTrotter: Smart Student Travel Planner</p>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="footer-content">
-      <p>&copy; 2026 GlobeTrotter. Crafted with passion by Bharadwaj Manne, Rasheeq Ishmam, and Arturo Calanche.</p>
-      <p class="footer-meta">Florida State University | HCI Project | Spring 2026</p>
+    <div class="footer-container">
+      <div class="footer-content">
+        <h3>GlobeTrotter</h3>
+        <p>Simplifying travel planning for college students, one trip at a time.</p>
+      </div>
+      
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#storyboards">Storyboards</a>
+        <a href="#prototypes">Prototypes</a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 GlobeTrotter. Designed and developed by Bharadwaj Manne, Rasheeq Ishmam, and Arturo Calanche.</p>
+      </div>
     </div>
   </footer>
 
